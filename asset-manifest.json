@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/NBA-Fantasy-Research-App/static/css/main.c219d22b.chunk.css",
+    "main.js": "/NBA-Fantasy-Research-App/static/js/main.82a4fc51.chunk.js",
+    "main.js.map": "/NBA-Fantasy-Research-App/static/js/main.82a4fc51.chunk.js.map",
+    "runtime-main.js": "/NBA-Fantasy-Research-App/static/js/runtime-main.b3ea6143.js",
+    "runtime-main.js.map": "/NBA-Fantasy-Research-App/static/js/runtime-main.b3ea6143.js.map",
+    "static/js/2.9cf42695.chunk.js": "/NBA-Fantasy-Research-App/static/js/2.9cf42695.chunk.js",
+    "static/js/2.9cf42695.chunk.js.map": "/NBA-Fantasy-Research-App/static/js/2.9cf42695.chunk.js.map",
+    "static/js/3.30f518d4.chunk.js": "/NBA-Fantasy-Research-App/static/js/3.30f518d4.chunk.js",
+    "static/js/3.30f518d4.chunk.js.map": "/NBA-Fantasy-Research-App/static/js/3.30f518d4.chunk.js.map",
+    "index.html": "/NBA-Fantasy-Research-App/index.html",
+    "static/css/main.c219d22b.chunk.css.map": "/NBA-Fantasy-Research-App/static/css/main.c219d22b.chunk.css.map",
+    "static/js/2.9cf42695.chunk.js.LICENSE.txt": "/NBA-Fantasy-Research-App/static/js/2.9cf42695.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3ea6143.js",
+    "static/js/2.9cf42695.chunk.js",
+    "static/css/main.c219d22b.chunk.css",
+    "static/js/main.82a4fc51.chunk.js"
+  ]
+}
