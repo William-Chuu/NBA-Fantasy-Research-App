@@ -1,0 +1,51 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.12.5",
+    "@material-ui/core": "^4.11.1",
+    "@material-ui/data-grid": "^4.0.0-alpha.12",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.2.2",
+    "axios": "^0.21.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-flask-api": "cd .. && cd NBAFantasy && flask run",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://127.0.0.1:5000/",
+  "homepage": "http://william-chuu.github.io/NBA-Fantasy-Research-App",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
