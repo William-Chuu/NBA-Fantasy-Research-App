@@ -1,4 +1,4 @@
-Available @ http://william-chuu.github.io/NBA-Fantasy-Research-App
+# Available @ http://william-chuu.github.io/NBA-Fantasy-Research-App
 
 
 # Getting Started with Create React App
