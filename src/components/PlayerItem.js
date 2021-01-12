@@ -56,16 +56,12 @@ export default function PlayerItem({Player, delPlayer}) {
         rows.push(temp);
     }
 
-    var instructions = "";
-    if (Object.keys(Player).length == 0) {
-        instructions = "Search a player's name to see their info!";
-    }
 
     const StyledWidget = styled.div `
     position: relative;
     background: white;
-    margin-left: 10%; 
-    margin-right: 10%;
+    margin-left: 250px;
+    margin-right: 250px;
     margin-bottom: 5%;
     border-radius: 25px;
     border: 0px;
@@ -81,9 +77,6 @@ export default function PlayerItem({Player, delPlayer}) {
   return (
       <React.Fragment>
         <StyledWidget>
-            <h1>
-                {instructions}
-            </h1>
             <StyledHeader>
                 <p>
                     <h1 style={{fontFamily:'Trebuchet MS',fontSize:'40px', position:'absolute', top:'-18%', left:'43%'}}>{name}</h1>
